@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # habit_tracker_hive
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# HabitScribe
+>>>>>>> e4469c2ef2f68a962ac4b9dab46450c4a1bc4a8b
