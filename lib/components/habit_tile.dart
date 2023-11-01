@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HabitTile extends StatelessWidget {
   final String habitName;
@@ -52,7 +53,7 @@ class HabitTile extends StatelessWidget {
                 onChanged: onChanged,
                 fillColor: MaterialStateProperty.all<Color>(Color(0xff013a63)),
               ),
-              Text(habitName, style: TextStyle(color: habitCompleted? Colors.white: Colors.black),),
+              Text(habitName, style: GoogleFonts.raleway(textStyle: TextStyle(color: habitCompleted? Colors.white: Colors.black, fontSize: 16.0),),),
               Expanded(child: SizedBox()), // This expands the space between text and arrow icon
               Icon(Icons.arrow_back_ios_new, color: habitCompleted ? Colors.white : Colors.black),
             ],
