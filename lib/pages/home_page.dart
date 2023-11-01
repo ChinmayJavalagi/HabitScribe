@@ -124,7 +124,17 @@ class _HomePageState extends State<HomePage> {
           children: [
             Padding(
               padding: EdgeInsets.only(top: 18.0, bottom: 10.0),
-              child: Text("HabitScribe", style: GoogleFonts.raleway(textStyle: TextStyle(fontSize: 30.0))),
+              child: RichText(
+                text: TextSpan(
+                  style: GoogleFonts.raleway(textStyle: TextStyle(fontSize: 30.0)),
+                  children: <TextSpan>[
+                    TextSpan(text: 'H', style: TextStyle(color: Color(0xff2a6f97), fontWeight: FontWeight.bold, fontSize: 30.0)),
+                    TextSpan(text: 'abit', style: TextStyle(color: Colors.black87, fontSize: 28.0)),
+                    TextSpan(text: 'S', style: TextStyle(color: Color(0xff2a6f97), fontWeight: FontWeight.bold, fontSize: 30.0)),
+                    TextSpan(text: 'cribe', style: TextStyle(color: Colors.black87, fontSize: 28.0)),
+                  ],
+                ),
+              ),
             ),
             MonthlySummary(
                 datasets: db.heatMapDataSet, startDate: _myBox.get("START_DATE")),
