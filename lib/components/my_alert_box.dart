@@ -5,7 +5,7 @@ class MyAlertBox extends StatelessWidget {
   final TextEditingController controller;
   final VoidCallback onCancel;
 
-  MyAlertBox({required this.controller, required this.onCancel, required this.onSave});
+  MyAlertBox({required this.controller, required this.onCancel, required this.onSave, required hintText});
 
   @override
   Widget build(BuildContext context) {

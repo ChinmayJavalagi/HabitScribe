@@ -42,7 +42,7 @@ class HabitTile extends StatelessWidget {
         child: Container(
           padding: const EdgeInsets.all(24),
           decoration: BoxDecoration(
-            color: Colors.grey[100],
+            color: habitCompleted? Color(0xff2a6f97):Colors.grey[100],
             borderRadius: BorderRadius.circular(12),
           ),
           child: Row(
@@ -50,8 +50,11 @@ class HabitTile extends StatelessWidget {
               Checkbox(
                 value: habitCompleted,
                 onChanged: onChanged,
+                fillColor: MaterialStateProperty.all<Color>(Color(0xff013a63)),
               ),
-              Text(habitName),
+              Text(habitName, style: TextStyle(color: habitCompleted? Colors.white: Colors.black),),
+              Expanded(child: SizedBox()), // This expands the space between text and arrow icon
+              Icon(Icons.arrow_back_ios_new, color: habitCompleted ? Colors.white : Colors.black),
             ],
           ),
         ),
