@@ -5,6 +5,7 @@ Develop healthier habits with HabitScribe! This intuitive habit tracking app hel
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Screenshots](#screenshots)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -22,6 +23,12 @@ Visualize your progress with the comprehensive heatmap feature, displaying an ov
 Simplify your habit management by creating, editing, and deleting habits effortlessly. Utilize the convenient sorting options to organize your habits alphabetically or prioritize tasks that are yet to be completed, ensuring you always stay focused and on track.
 
 Enjoy a seamless user experience with HabitScribe's intuitive interface and streamlined navigation, making habit tracking and management a hassle-free process. Download HabitScribe now and take charge of your daily routines to lead a more organized and efficient life.
+
+## Screenshots 
+![Screenshot 1](screenshots/image1.png)
+![Screenshot 2](screenshots/image2.png)
+![Screenshot 2](screenshots/image3.png)
+![Screenshot 2](screenshots/image4.png)
 
 ## Features
 
