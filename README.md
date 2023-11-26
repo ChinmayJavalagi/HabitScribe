@@ -71,7 +71,7 @@ Follow these steps to install HabitScribe:
    ```bash
    flutter run
 
-## Contributing
+## Contribute
 
 We welcome contributions! Follow these steps to contribute to HabitScribe:
 
