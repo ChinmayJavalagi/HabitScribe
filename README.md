@@ -57,7 +57,7 @@ Follow these steps to install HabitScribe:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/habitscribe.git
+   git clone https://github.com/ChinmayJavalagi/habitscribe.git
    
 2. Navigate to the project directory:
    ```bash
